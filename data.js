@@ -18,7 +18,7 @@ const creatures = {
         },
         Vayne:{
             hp:50 ,
-            DiceCount:4 ,
+            DiceCount:8 ,
             name:"vayne",
             elementId:"hero",
             image:"./img/Vayne.jpg"
@@ -30,12 +30,12 @@ const creatures = {
             DiceCount:1 ,
             name:"skeleton",
             elementId:"monster",
-            image:"./img/skeletonTroop.png"
+            image:"./img/skeleton.jpg"
         },
         KarthusTHEMinister:{
             hp:100 ,
             DiceCount: 2,
-            name: "karthusTheMinister",
+            name: "karthus",
             elementId: "monster",
             image:"./img/KarthusTHEMinister.jpg"
         },
