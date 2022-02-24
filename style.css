@@ -137,7 +137,7 @@ button:focus{
 }
 .container{
     width: 90%;
-    margin:auto;
+    margin: 0 auto;
     max-width: 46em;   
     background-color: #b2bec300; 
     height: 95%;
@@ -225,12 +225,12 @@ height:38%;
     background-size: cover;
     background-position: right;
     width: 100%;
-    height: 100%;
+    height: 90%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+    
     
 }
 
@@ -274,7 +274,7 @@ height:38%;
     background-color: rebeccapurple;
 }
 .hidden{
-    
+    display: none;
 }
 .h1{
     background-image: url(./img/Garen.jpg);
@@ -302,15 +302,40 @@ height:38%;
    color: white;            
    /* box-shadow: 0 0 20px #eee; */
    border-radius: 10px;
-   display: block;
+   /* display: block; */
    background-color: red;
    
  }
-
+h1{
+    color: white;
+    font-size: 3rem;
+}
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
    text-decoration: none;
  }
+ .show{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 2rem;
+ }
+ .stat{
+    display: flex;
+}
+.champ-div{
+    background-color: #636e72;
+    margin: 1em;
+    padding: 1em 2em;
+    border-radius: 15px;
+}
+.champ-div:hover,
+.champ-div:focus{
+    border: 3px solid rgb(255, 217, 0);
+}
+img{
+    margin-left: .5em;
+}
 
 

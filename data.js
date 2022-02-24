@@ -1,7 +1,7 @@
 const creatures = {
     hero:{
         Garen:{
-            hp:200 ,
+            hp:300 ,
             DiceCount:1 ,
             name:"garen",
             elementId:"hero",
@@ -9,15 +9,15 @@ const creatures = {
 
         },
         XinZhao:{
-            hp:100 ,
-            DiceCount: 2,
+            hp:150 ,
+            DiceCount: 3,
             name:"xin Zhao",
             elementId : "hero",
             image:"./img/XinZhao.jpg"
             
         },
         Vayne:{
-            hp:50 ,
+            hp:100 ,
             DiceCount:8 ,
             name:"vayne",
             elementId:"hero",
