@@ -273,9 +273,7 @@ height:38%;
     border-radius: 50%;
     background-color: rebeccapurple;
 }
-.hidden{
-    display: none;
-}
+
 .h1{
     background-image: url(./img/Garen.jpg);
     background-size: cover;
@@ -306,7 +304,7 @@ height:38%;
    background-color: red;
    
  }
-h1{
+ .choose-champion h1{
     color: white;
     font-size: 3rem;
 }
@@ -337,5 +335,19 @@ h1{
 img{
     margin-left: .5em;
 }
+.endgame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    padding: 8em 0;
+    background: #34495e8e;
+    color: red;
+    font-size: 2rem;
+}
 
+
+.hidden{
+    display: none;
+}
 

@@ -175,10 +175,14 @@ function attack() {
 }
 function endgame() {
     if (skeleton.dead && KarthusTHEMinister.dead && Mordkaiser.dead ) {
-        document.body.innerHTML = `<h1> hero won</h1>`
+        document.querySelector(".container").classList.add("hidden")
+        document.querySelector(".endgame").style.color ="blue"
+        document.querySelector(".endgame").classList.remove("hidden")
+        document.querySelector(".endmassege").textContent = "you won 😎 but dont try again"    
     } else if (hero.dead) {
-        document.body.innerHTML = `<h1> monsters  won</h1>`
-
+        document.querySelector(".endgame").classList.remove("hidden")
+        document.querySelector(".container").classList.add("hidden")
+        document.querySelector(".endmassege").textContent = "you died 😂 dont try again"
     }
 
 }
